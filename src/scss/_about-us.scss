@@ -1,0 +1,48 @@
+.about-us {
+    background-color: #F6F6F8;
+    padding-top: 100px;
+    padding-bottom: 70px;
+    
+    &__descr {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 25px;
+    color: #999999;
+    margin-top: 40px;
+    border-bottom: 30px;
+    }
+    &__link {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20px;
+        text-decoration-line: underline;
+        color: #4985FF;
+    }
+    &__img {
+        padding-left: 10px;
+        padding-top: 100px;
+    }
+    &__line {
+        @include line;
+        margin-top: 90px;
+        margin-bottom: 70px;
+    }
+}
+
+.wrapper-1 {
+    background: url(/src/images/about-us/icon.svg) left 7px no-repeat;
+    align-items: center;
+    &__title {
+        font-size: 36px;
+        padding-left: 50px;
+    }
+    &__subtitle {
+        font-size: 16px;
+        color: #999999;
+    }
+}
+.col {
+    align-items: center;
+}

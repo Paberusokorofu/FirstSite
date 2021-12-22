@@ -1,0 +1,31 @@
+.home {
+    padding-top: 319px;
+    background: url(../images/home/bg.png) center center / cover no-repeat;
+    padding-bottom: 335px;
+    &__title {
+        font-weight: 175px;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    &__subtitle {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 48px;
+        line-height: 64px;
+        text-align: center;
+        color: #FFFFFF;
+        margin-top: 20px;
+        margin-bottom: 50px;
+    }
+    &__btn {
+        @include btn;
+    }
+}
+
+

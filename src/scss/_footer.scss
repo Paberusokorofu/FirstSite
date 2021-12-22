@@ -1,0 +1,50 @@
+.footer {
+    background: #F6F6F8;
+    margin-top: 70px;
+    font-size: 14px;
+    line-height: 22px;
+    color: #999999;
+    text-align: center;
+    &__th {
+        width: 150px;
+        height: 50px;
+    }
+    &__header {
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 22px;
+        color: #000000;
+    }
+    &__discr1 {
+        background: url(../images/footer/right-arrow_icon.svg) no-repeat;
+        padding-left: 30px;
+        :first-child {
+            background: url(../images/footer/male_icon.svg) no-repeat;
+            padding-left: 30px;
+        }
+    }
+    &__discr2 {
+        background: url(../images/footer/right-arrow_icon.svg) no-repeat;
+        padding-left: 30px;
+        :first-child {
+            background: url(../images/footer/call_icon.svg) no-repeat;
+            padding-left: 30px;
+        }
+    }
+    &__discr3 {
+        background: url(../images/footer/right-arrow_icon.svg) no-repeat;
+        padding-left: 30px;
+        :first-child {
+            background: url(../images/footer/mark_icon.svg) no-repeat;
+            padding-left: 30px;
+        }
+    }
+    &__discr4 {
+        background: url(../images/footer/right-arrow_icon.svg) no-repeat;
+        padding-left: 30px;
+    }
+    &__line {
+        @include line;
+        margin-bottom: 30px;
+    }
+}

@@ -1,0 +1,36 @@
+.all-services {
+    background: linear-gradient(90deg, #504DC2 20.44%, #5F12D0 80.91%)  center top / 100% 50% no-repeat, #fff;
+    margin-bottom: 85px;
+    padding-top: 100px;
+    &__title {
+        color: #fff;
+        line-height: 53px;
+    }
+    .wrapper {
+        margin-top: 70px;
+    }
+    &__btn {
+        @include btn;
+        margin: 0;
+    }
+    &__text{
+        margin-top: 30px;
+        margin-bottom: 30px;
+        font-size: 18px;
+        line-height: 22px;
+        span {
+        color: #4985FF;    
+        }
+        
+    }
+    &__describe {
+        font-size: 16px;
+        line-height: 25px;
+        color: #999999;
+        margin-bottom: 30px;
+    }
+    &__line {
+        @include line;
+        margin-top: 50px;
+    }
+    }

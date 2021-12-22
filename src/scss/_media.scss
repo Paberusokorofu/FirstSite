@@ -1,0 +1,11 @@
+@media (max-width:576px) and (min-width:0) {
+    .home {
+        padding-top: 100px;
+        &__title {
+            font-size: 24px;
+        }
+        &__subtitle {
+            font-size: 26px;
+        }
+    }
+}
